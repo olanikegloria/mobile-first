@@ -99,8 +99,8 @@ Still under construction:
 
 👤 **Author1**
 
-- GitHub: [Ddiiro](https://github.com/olanikegloria)
-- LinkedIn: [Ddiiro Joseph](https://www.linkedin.com/in/olanike-olatunji-81a6921b1/)
+- GitHub: [Olanike](https://github.com/olanikegloria)
+- LinkedIn: [Olanike gloria](https://www.linkedin.com/in/olanike-olatunji-81a6921b1/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
