@@ -75,6 +75,11 @@ body {
   margin-bottom: 8px;
 }
 
+.socials {
+  display: flex;
+  list-style: none;
+}
+
 .socials img {
   padding-right: 15px;
 }
