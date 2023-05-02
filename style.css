@@ -293,6 +293,9 @@ form ul li:nth-child(1) {
   text-align: center;
 }
 
+.full-name {
+  margin-bottom: 2rem;
+}
 .contact {
   font-family: "Poppins", sans-serif;
   font-style: normal;
