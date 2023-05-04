@@ -200,6 +200,7 @@ form ul li:nth-child(1) {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  transition: ease-in 0.4s all;
 }
 
 .last-btn:hover {
@@ -565,5 +566,15 @@ textarea::placeholder {
     color: #fff;
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+
+  /* tranasition and animation */
+
+  .socials li a img:hover {
+    transform: scale(1.2);
+  }
+
+  .nav_link:hover {
+    transform: scale(1.2);
   }
 }
