@@ -574,5 +574,7 @@ textarea::placeholder {
     transform: scale(1.2);
   }
 
-
+  .nav_link:hover {
+    transform: scale(1.2);
+  }
 }
