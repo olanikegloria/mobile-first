@@ -35,6 +35,8 @@ body {
   color: #6070ff;
   font-weight: 700;
   text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .nav_link ul {
@@ -194,8 +196,16 @@ form ul li:nth-child(1) {
   margin-top: 8px;
   background-color: white;
   color: #6070ff;
-  font-size: 20px;
-  font-weight: 600;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.last-btn:hover {
+  background: #4053fc;
+  color: #fff;
+  cursor: pointer;
 }
 
 .section-3 {
@@ -359,7 +369,7 @@ textarea::placeholder {
   align-items: flex-start;
 }
 
-.submit {
+.submit-btn {
   padding: 12px 16px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -367,6 +377,11 @@ textarea::placeholder {
   font-size: 17px;
   line-height: 24px;
   background-color: #fff;
+  border: none;
+  color: #6070ff;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-right: -20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -383,6 +398,13 @@ textarea::placeholder {
     text-align: start;
   }
 
+  nav {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   .navbar-content img {
     display: none;
   }
@@ -395,10 +417,20 @@ textarea::placeholder {
 
   .nav_link {
     display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .btn {
-    margin-right: -9px;
+    margin-right: -15px;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 5px 18px;
   }
 
   .nav_link ul {
@@ -432,8 +464,8 @@ textarea::placeholder {
   .container-1 img {
     width: 100%;
     height: 100%;
-    margin-top: 18px;
-    margin-left: 10px;
+    margin-top: 8px;
+    margin-bottom: -5px;
   }
 
   .container-1 {
@@ -443,11 +475,12 @@ textarea::placeholder {
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   .ruby {
-    padding: 4px 20px;
-    margin-right: -1px;
+    margin-right: -5px;
   }
 
   .items {
@@ -489,5 +522,48 @@ textarea::placeholder {
     width: 122px;
     align-items: flex-start;
     text-align: start;
+  }
+
+  .section-4 {
+    background-color: #6070ff;
+    background-image: url("images/contact\ form\ background\ shapes@2x.png");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-4-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+    margin: 0 21rem;
+  }
+
+  form input,
+  textarea {
+    border-radius: 0;
+  }
+
+  .submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-4-container p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 }
