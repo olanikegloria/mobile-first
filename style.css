@@ -200,6 +200,7 @@ form ul li:nth-child(1) {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  transition: ease-in 0.4s all;
 }
 
 .last-btn:hover {
