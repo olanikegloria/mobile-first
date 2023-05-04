@@ -566,4 +566,12 @@ textarea::placeholder {
     margin-bottom: 20px;
     margin-top: 10px;
   }
+
+  /* tranasition and animation */
+
+  .socials li a img:hover {
+    transform: scale(1.2);
+  }
+
+
 }
