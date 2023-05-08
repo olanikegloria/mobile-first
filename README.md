@@ -45,7 +45,7 @@ Mobile First is a project that helps test and learn and the basic set up of an h
 - Figma
 
 ### 🚀 Live Demo <a name="live-demo"></a>
-Link to the live demo is still under construction 🛠
+https://olanikegloria.github.io/mobile-first/ 🛠
 
 <!-- GETTING STARTED -->
 
