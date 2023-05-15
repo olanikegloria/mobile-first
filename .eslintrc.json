@@ -20,7 +20,7 @@
         "js": "always",
         "json": "always"
       }
-    ],
+    ]
   },
   "ignorePatterns": ["dist/", "build/"]
 }
