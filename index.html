@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link rel="stylesheet" href="./style.css" />
+   <link rel="stylesheet" href="./side-menu.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,16 +18,39 @@
 
 <body>
   <header>
+      <nav class="side-menu">
+        <div class="header">
+            <svg width="24" class="close-btn" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                    fill="currentColor" />
+            </svg>
+        </div>
+
+        <ul>
+            <li>
+                <a href="#projects">Portfolio</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
     <nav class="navbar">
       <div class="navbar-content">
         <a href="#" class="logo">My Logo</a>
-        <img src="images/button.png" />
+        <img src="images/button.png" class="bx-menu"/>
       </div>
       <div class="nav_link hide">
         <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -60,7 +84,7 @@
       </ul>
     </div>
   </section>
-  <section class="section-2">
+  <section class="section-2" id="projects">
     <div class="container-1">
       <img src="images/Snapshoot Portfolio.png" />
       <div class="items">
@@ -146,7 +170,7 @@
       </div>
     </div>
   </section>
-  <section class="section-2-desktop">
+  <section class="section-2-desktop" id="projects">
     <div class="container-1">
       <img src="images/image1.png" />
       <div class="items">
@@ -235,7 +259,7 @@
       <img src="images/image3.png" />
     </div>
   </section>
-  <section class="section-3">
+  <section class="section-3 " id="about">
     <div class="container-3">
       <div class="about-div">
         <h1 class="about">About Myself</h1>
@@ -295,7 +319,7 @@
       </div>
     </div>
   </section>
-  <footer class="section-4 ">
+  <footer class="section-4" id="contact">
     <div class="section-4-container">
       <h2 class="contact">Contact me</h2>
       <p>If you have an application you  are interested in developing, a feature that you need built or a project
@@ -326,5 +350,6 @@
       </form>
     </div>
   </footer>
+  <script src="index.js"></script>
 </body>
 </html>
