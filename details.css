@@ -1,0 +1,152 @@
+.backdrop {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: #2e3ecb8a;
+  backdrop-filter: blur(10px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  /* transform: scale(1) rotate(100deg);
+  transition: 500ms ease-in-out; */
+  overflow: hidden;
+}
+
+.modal {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0px 10px;
+  box-shadow: 0 0 30vw rgba(0, 0, 0, 0.663);
+}
+
+.modal-header ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.project-desc {
+  margin-top: 10px;
+}
+
+.modal-header {
+  margin: 15px 0px;
+}
+
+.modal-header .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-header .title svg {
+  position: relative;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.modal-header ul li {
+  padding: 5px;
+}
+
+.modal-header ul li div {
+  width: 7px;
+  height: 7px;
+  background-color: #C1C7D0;
+  border-radius: 50%;
+}
+
+.desc-image-container {
+  width: 100%;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+
+.modal-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.btn-div {
+  margin: 15px 0;
+  list-style: none;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+.btn {
+  border: none;
+  padding: 7px 12px;
+  color: #6070ff;
+  text-decoration: none;
+  background-color: #ebebff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.last-btn {
+  padding: 15px 10px;
+  width: 100%;
+  border: 1px solid #6070ff;
+  border-radius: 10px;
+  color: #6070ff;
+  transition: 300ms ease-in-out;
+}
+
+.last-btn a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.last-btn:hover {
+  background: #4053fc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.see-projects {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  gap: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.127);
+}
+
+.open-backdrop {
+  transform: scale(1) rotate(0deg);
+}
+
+/* //mediaqueries */
+@media (min-width:805px) {
+  .project-desc {
+    display: flex;
+  }
+
+  .desc-image-container {
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .project-desc .parag {
+    flex-basis: 70%;
+  }
+
+  .modal {
+    max-width: 900px;
+  }
+}
