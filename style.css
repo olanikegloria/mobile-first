@@ -368,11 +368,27 @@ textarea::placeholder {
 
 .submit-container {
   display: flex;
+  flex-direction: column;
+  position: inherit;
   align-items: flex-start;
+  position: relative;
+
+}
+
+.submit-container .message {
+  position: absolute;
+  bottom: 40px;
+  font-size: 12px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: rgb(245, 97, 97);
+  opacity: 0;
+  transition: 200ms ease-in-out;
 }
 
 .submit-btn {
   padding: 12px 16px;
+  margin-top: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -383,7 +399,6 @@ textarea::placeholder {
   color: #6070ff;
   text-decoration: none;
   border-radius: 10px;
-  margin-right: -20px;
 }
 
 @media only screen and (min-width: 768px) {
