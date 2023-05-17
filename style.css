@@ -397,6 +397,7 @@ textarea::placeholder {
   color: #6070ff;
   text-decoration: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
