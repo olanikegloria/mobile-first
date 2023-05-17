@@ -292,7 +292,7 @@ form ul li:nth-child(1) {
   background-size: 60%;
   background-position: right 0;
   background-repeat: no-repeat;
-  width: 375px;
+  width: 100%;
   height: 779px;
   border-top-left-radius: 100px;
 }
@@ -369,10 +369,8 @@ textarea::placeholder {
 .submit-container {
   display: flex;
   flex-direction: column;
-  position: inherit;
   align-items: flex-start;
   position: relative;
-
 }
 
 .submit-container .message {
