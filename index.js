@@ -32,7 +32,3 @@ menuItems.forEach((el) => {
 projectCard.forEach((card) => {
   card.querySelector('.project-btn').addEventListener('click', () => showModalDesc(card));
 });
-
-menubtn.addEventListener('click', () => openMenu());
-closeBtn.addEventListener('click', () => closeMenu());
-closebtn.addEventListener('click', () => closeModalDesc());
