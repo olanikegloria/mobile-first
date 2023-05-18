@@ -19,13 +19,13 @@ const updateInputs = (value, type) => {
 };
 
 const updateLoadedData = () => {
-    const getFormData = JSON.parse(localStorage.getItem('form'));
-    if (getFormData === null) return;
-  
-    email.value = getFormData.email;
-    name.value = getFormData.name;
-    textarea.value = getFormData.message;
-  };
+  const getFormData = JSON.parse(localStorage.getItem('form'));
+  if (getFormData === null) return;
+
+  email.value = getFormData.email;
+  name.value = getFormData.name;
+  textarea.value = getFormData.message;
+};
 
 // events
 email.addEventListener('keyup', (e) => updateInputs(e.target.value, 'email'));
