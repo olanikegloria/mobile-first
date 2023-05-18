@@ -18,7 +18,17 @@ const updateInputs = (value, type) => {
   localStorage.setItem('form', JSON.stringify(getExistingData));
 };
 
+const updateLoadedData = () => {
+    const getFormData = JSON.parse(localStorage.getItem('form'));
+    if (getFormData === null) return;
+  
+    email.value = getFormData.email;
+    name.value = getFormData.name;
+    textarea.value = getFormData.message;
+  };
+
 // events
 email.addEventListener('keyup', (e) => updateInputs(e.target.value, 'email'));
 name.addEventListener('keyup', (e) => updateInputs(e.target.value, 'name'));
 textarea.addEventListener('keyup', (e) => updateInputs(e.target.value, 'message'));
+window.addEventListener('load', () => updateLoadedData());
