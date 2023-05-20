@@ -1,10 +1,10 @@
-const email = document.getElementById('email');
+const emailInput = document.getElementById('email');
 const form = document.getElementById('form');
 const message = document.querySelector('.message');
 
 form.addEventListener('submit', (e) => {
   const regex = /[A-Z]/;
-  if (regex.test(email.value)) {
+  if (regex.test(emailInput.value)) {
     e.preventDefault();
     message.style.opacity = 1;
   } else {
