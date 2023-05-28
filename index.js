@@ -26,7 +26,7 @@ const closeModalDesc = () => {
 };
 
 menuItems.forEach((el) => {
-  el.addEventListener('click', () => );
+  el.addEventListener('click', () => closeMenu());
 });
 
 projectCard.forEach((card) => {
